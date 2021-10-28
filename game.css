@@ -1,0 +1,42 @@
+body{
+    background:#4C96FF;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#jumping {
+    width: 400px;
+    height: 500px;
+    border: 20px solid #FDDB5D;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: 100px;
+}
+#ball{
+    width: 30px;
+    height: 30px;
+    background-color: #FDDB5D;
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    z-index: 1000000;
+}
+.block{
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: #4C96FF;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
